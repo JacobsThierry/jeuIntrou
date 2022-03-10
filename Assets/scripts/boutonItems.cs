@@ -13,7 +13,8 @@ public class boutonItems : MonoBehaviour
     public GameObject shopItems;
 
     public void onClick(){
-        GameObject si = Instantiate(shopItems, transform.parent.parent);
+        GameObject si = Instantiate(shopItems, transform.parent.parent.Find("shopSubScene"));
+        si.name = si.name.Replace("(Clone)", "");
         GameObject.Find("soundManager").GetComponent<soundManagerController>().playSelect();
         Destroy(transform.parent.gameObject);
     }

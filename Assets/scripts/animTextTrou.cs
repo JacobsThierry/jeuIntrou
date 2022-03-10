@@ -36,6 +36,7 @@ public class animTextTrou : MonoBehaviour
         initialScale = transform.localScale;
         text = GetComponent<TMPro.TextMeshProUGUI>();
         heatManager.click.AddListener(onClick);
+        text.color = colorGradient.Evaluate(heatManager.getHeat01());
     }
 
     // Update is called once per frame

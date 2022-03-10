@@ -18,13 +18,15 @@ public class boutonRetourController : MonoBehaviour
         GameObject.Find("soundManager").GetComponent<soundManagerController>().playSelect();
         GameObject.Find("items and upgrades").GetComponent<save>().saveAll();
 
-        if (GameObject.Find("ShopButtons") == null) {
-            SceneManager.LoadScene("shop");
+        Transform subScene = transform.parent.Find("shopSubScene");
 
+        if (subScene.childCount == 0) {
+            GameObject.Find("CanvasManager").GetComponent<CanvasManager>().activerCanvasJeu();
         }else {
-            SceneManager.LoadScene("GameScene");
+            Destroy(subScene.GetChild(0).gameObject);
+            GameObject a = Instantiate(ShopButtons, transform.parent);
+            a.name = a.name.Replace("(Clone)", "");
         }
-
 
     }
 

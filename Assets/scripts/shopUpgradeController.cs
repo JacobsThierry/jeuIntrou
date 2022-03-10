@@ -8,6 +8,8 @@ public class shopUpgradeController : MonoBehaviour
     public GameObject upgrade;
     private upgradeController controller;
 
+    public List<Color> list_couleur;
+
 
     // Start is called before the first frame update
     void Start()
@@ -15,10 +17,11 @@ public class shopUpgradeController : MonoBehaviour
         controller = upgrade.GetComponent<upgradeController>();
 
         transform.Find("Content/Content/NomUpgrade").GetComponent<TMPro.TextMeshProUGUI>().text = controller.nom;
+        transform.Find("Content/Content/NomUpgrade").GetComponent<TMPro.TextMeshProUGUI>().color = list_couleur[controller.unlockPalier - 1];
         transform.Find("Content/Content/UpgradeImage").GetComponent<UnityEngine.UI.Image>().sprite = controller.image;
         transform.Find("Content/Content/TextEffets").GetComponent<TMPro.TextMeshProUGUI>().text = controller.textEffets;
         transform.Find("Content/Content/DescriptionUpgrade").GetComponent<TMPro.TextMeshProUGUI>().text = controller.description;
-        transform.Find("Content/Content/PrixUpgrade").GetComponent<TMPro.TextMeshProUGUI>().text = "Prix :" + controller.prix.ToString();
+        transform.Find("Content/Content/PrixUpgrade").GetComponent<TMPro.TextMeshProUGUI>().text = "Prix :" + TroueurGlobal.formatString(controller.prix);
     }
 
     // Update is called once per frame

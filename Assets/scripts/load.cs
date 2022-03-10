@@ -18,7 +18,8 @@ public class load : MonoBehaviour
 
         
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("Menu");
+        GameObject.Find("PiouPiou").GetComponent<introManager>().allowLoad();
+        //SceneManager.LoadScene("Menu");
 
 
     }

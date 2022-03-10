@@ -1,5 +1,502 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &525632084020286687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6682868682878896619}
+  - component: {fileID: 4602654261942609826}
+  m_Layer: 0
+  m_Name: Algo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6682868682878896619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525632084020286687}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7215106141595474210}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4602654261942609826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525632084020286687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 10
+  nom: Optimisation trouale
+  textEffets: +1 trou par click
+  description: "Le club algo a trouv\xE9 une fa\xE7on de produire des trous 0.00001%
+    plus rapidement avec un algorithme en log(n)"
+  prix: 1000000
+  incrementUpgradeBrut: 1
+  unlockPalier: 1
+  image: {fileID: 0}
+  effets: []
+  achete: 0
+  cache: 1
+--- !u!1 &1122434434622299555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1765250985252146571}
+  - component: {fileID: 710500170275133886}
+  m_Layer: 0
+  m_Name: Arc de gueule de bois
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1765250985252146571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122434434622299555}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7215106139868741656}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &710500170275133886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122434434622299555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdf8445e12b823438de245002024c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 5
+  quantite: 0
+  trouParTick: 3
+  tickDelay: 2.5
+  prix: 20
+  coefficient: 1.5
+  incrementTrousParClick: 0
+  nom: Arc gueule de bois
+  description: "Suite \xE0 une tentative de meurtre de Robin gueule de bois, tu as
+    d\xE9couvert une nouvelle fa\xE7on de faire des trous."
+  image: {fileID: 21300000, guid: 26c72db89d7672b4fb0c079addbd6e40, type: 3}
+  unlockPalier: 2
+--- !u!1 &1658937146375731781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1111953001569945410}
+  - component: {fileID: 3164541916849229809}
+  m_Layer: 0
+  m_Name: "S\xE9curit\xE9"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1111953001569945410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658937146375731781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7215106141595474210}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3164541916849229809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658937146375731781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 6
+  nom: "Trou dans la s\xE9curit\xE9"
+  textEffets: +1 trou par click
+  description: "Aie, la s\xE9curit\xE9 ne fonctionne pas a cause d'un mot de passe
+    faible. Tu peux cependant utiliser ce trou dans la s\xE9curit\xE9 !"
+  prix: 1000000
+  incrementUpgradeBrut: 1
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 2b2a9b0298ce77d46bc287f0736f1270, type: 3}
+  effets: []
+  achete: 0
+  cache: 1
+--- !u!1 &1760179660577165691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 802423836549252398}
+  - component: {fileID: 3142881239646132180}
+  m_Layer: 0
+  m_Name: TekTN
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &802423836549252398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760179660577165691}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7215106141595474210}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3142881239646132180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760179660577165691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 7
+  nom: Passe tekTN
+  textEffets: +1 trou par click
+  description: "C'est gr\xE2ce \xE0 TekTN qu'on a pas de trous dans nos mains suite
+    \xE0 l'int\xE9."
+  prix: 1000000
+  incrementUpgradeBrut: 1
+  unlockPalier: 1
+  image: {fileID: 0}
+  effets: []
+  achete: 0
+  cache: 1
+--- !u!1 &3058306615337970528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5647944806000759381}
+  - component: {fileID: 2354326986151389685}
+  m_Layer: 0
+  m_Name: Sticker sur la perfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5647944806000759381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3058306615337970528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7215106141595474210}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2354326986151389685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3058306615337970528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 3
+  nom: Sticker sur la perceuse
+  textEffets: Temps de production de la perforatrice -10%
+  description: "Mettre un sticker sur la perforatrice encourage les membres de l'introu
+    \xE0 travailler plus vite."
+  prix: 54321
+  incrementUpgradeBrut: 0
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 204a5c803fd14ec4091994075257c220, type: 3}
+  effets:
+  - itemId: 0
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.9
+  achete: 0
+  cache: 0
+--- !u!1 &4315363126904594967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7179595726143335619}
+  - component: {fileID: 3860075124994885216}
+  m_Layer: 0
+  m_Name: Le C
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7179595726143335619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4315363126904594967}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7215106139868741656}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3860075124994885216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4315363126904594967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdf8445e12b823438de245002024c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 8
+  quantite: 0
+  trouParTick: 666
+  tickDelay: 80
+  prix: 10000
+  coefficient: 1.666
+  incrementTrousParClick: 0
+  nom: Le C
+  description: Le C est terrifiant, il fait des trous dans la moyenne
+  image: {fileID: 21300000, guid: 92703b1105d10404581eac79924d121e, type: 3}
+  unlockPalier: 3
+--- !u!1 &4542745979439062364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8262824098951147212}
+  - component: {fileID: 4355709785843780182}
+  m_Layer: 0
+  m_Name: Danse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8262824098951147212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4542745979439062364}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7215106141595474210}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4355709785843780182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4542745979439062364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 5
+  nom: No one te regarde
+  textEffets: +20 trous par click.
+  description: "No one te regarde danser : tu te rends compte que tu peux utiliser
+    ce regard per\xE7ant pour faire plus de trous."
+  prix: 1000000
+  incrementUpgradeBrut: 20
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 36240ea6e0a0a2747b3353ed993d89ab, type: 3}
+  effets: []
+  achete: 0
+  cache: 1
+--- !u!1 &5642043959495151179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2474886629767749961}
+  - component: {fileID: 5820158333859229166}
+  m_Layer: 0
+  m_Name: Piou Piou niveau 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2474886629767749961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5642043959495151179}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7215106141595474210}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5820158333859229166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5642043959495151179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 11
+  nom: Piou Piou niveau 5
+  textEffets: Fait 10 trous de plus par clic !
+  description: Tu as fait un trou dans le coeur de piou piou :'(
+  prix: 239310360
+  incrementUpgradeBrut: 10
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 186554acd6402d64386608eec154141d, type: 3}
+  effets: []
+  achete: 0
+  cache: 0
+--- !u!1 &6369718546895672357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4558648642651821480}
+  - component: {fileID: 6867371706144630750}
+  m_Layer: 0
+  m_Name: Papillon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4558648642651821480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6369718546895672357}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7215106141595474210}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6867371706144630750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6369718546895672357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 8
+  nom: Papillon
+  textEffets: +1 trou par click
+  description: "Il n'y a pas que les animaux de la d\xE9sench'int\xE9 pour t'aider
+    \xE0 faire des trous : ce papillon t'aidera \xE0 faire pleins de trous !"
+  prix: 1000000
+  incrementUpgradeBrut: 1
+  unlockPalier: 1
+  image: {fileID: 0}
+  effets: []
+  achete: 0
+  cache: 1
 --- !u!1 &6750449213893416281
 GameObject:
   m_ObjectHideFlags: 0
@@ -29,7 +526,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7215106141595474210}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2980859953834797178
 MonoBehaviour:
@@ -45,10 +542,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   nom: Sticker sur la perceuse
-  textEffets: Temps de production de la perceuse -25%
-  description: 'Qui l''eu cru ? Mettre un sticker sur la perceuse la rend plus rapide '
+  textEffets: Temps de production de la perceuse -25%.
+  description: Qui l'eut cru ? Mettre un sticker sur la perceuse la rend plus rapide
+    .
   prix: 750000
-  incrementUpgradeBrut: 10
+  incrementUpgradeBrut: 0
+  unlockPalier: 1
   image: {fileID: 21300000, guid: b6cc9ccde4d5d004e84a4d94ea1ea148, type: 3}
   effets:
   - itemId: 2
@@ -86,7 +585,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7215106139868741656}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7215106139727072309
 MonoBehaviour:
@@ -102,15 +601,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   quantite: 0
-  trouParTick: 60
+  trouParTick: 10
   tickDelay: 12
-  prix: 120
-  coefficient: 1.265
+  prix: 300
+  coefficient: 1.725
   incrementTrousParClick: 0
   nom: Pelle
-  description: Cette pelle, de la taille exacte de Morgane, vous aidera a faire plein
-    de trous !
+  description: "Cette pelle, de la taille exacte de Morgane, vous aidera \xE0 faire
+    plein de trous !"
   image: {fileID: 21300000, guid: 0d3812cbf43b74f4b9833af73afec5b9, type: 3}
+  unlockPalier: 1
 --- !u!1 &7215106139868741662
 GameObject:
   m_ObjectHideFlags: 0
@@ -120,7 +620,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7215106139868741656}
-  - component: {fileID: 6065523191256716214}
   m_Layer: 0
   m_Name: Items
   m_TagString: Item
@@ -140,25 +639,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7215106140983566261}
+  - {fileID: 1765250985252146571}
   - {fileID: 7215106139727072308}
+  - {fileID: 3867286917509128089}
   - {fileID: 7215106139904129112}
   - {fileID: 7215106140345643952}
   - {fileID: 7215106141045043842}
+  - {fileID: 7179595726143335619}
+  - {fileID: 1914291407694964663}
   m_Father: {fileID: 7215106140964407726}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6065523191256716214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7215106139868741662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0865c54d80482ee4a829bdca92b88392, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7215106139904129119
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,7 +679,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7215106139868741656}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7215106139904129113
 MonoBehaviour:
@@ -204,17 +695,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   quantite: 0
-  trouParTick: 540
-  tickDelay: 24
-  prix: 1440
-  coefficient: 1.254
+  trouParTick: 30
+  tickDelay: 20
+  prix: 1001
+  coefficient: 1.881
   incrementTrousParClick: 0
   nom: Perceuse
-  description: "Si vous voyez une tache de sang dans les couloirs de l'\xE9cole,
+  description: "Si vous voyez une t\xE2che de sang dans les couloirs de l'\xE9cole,
     ne cherchez plus le coupable, on l'a trouv\xE9. C'est la perceuse \xE0 percussion
     filaire Bosch - Easyimpact 550 (550W, \xD8 de per\xE7age max b\xE9ton :10mm,
-    bois: 25mm, livr\xE9e avec accessoires et coffret de rangement)"
+    bois: 25mm, livr\xE9e avec accessoires et coffret de rangement)."
   image: {fileID: 21300000, guid: f238528848f9702468bec03444b0428f, type: 3}
+  unlockPalier: 1
 --- !u!1 &7215106140345643959
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,7 +736,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7215106139868741656}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7215106140345643953
 MonoBehaviour:
@@ -260,15 +752,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   quantite: 0
-  trouParTick: 4320
+  trouParTick: 80
   tickDelay: 48
-  prix: 17280
-  coefficient: 1.243
+  prix: 1700
+  coefficient: 1.7402
   incrementTrousParClick: 0
   nom: Un chien
-  description: "On a r\xE9ussie a convaincre Benjamin de nous pr\xEAter son chien
+  description: "On a r\xE9ussi \xE0 convaincre Benjamin de nous pr\xEAter son chien
     ! Ce dernier adore faire pleiiiins de trous dans le jardin"
   image: {fileID: 21300000, guid: 0dcdf5b7debd4ba4492217e4975c965e, type: 3}
+  unlockPalier: 1
 --- !u!1 &7215106140460313544
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,7 +791,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7215106141595474210}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7215106140460313546
 MonoBehaviour:
@@ -314,12 +807,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   nom: Piou Piou niveau 2
-  textEffets: Fais encore un trou de plus par clic
-  description: Piou Piou va t'aider a faire pleins de trous lorsque tu massacre cette
-    pauvre planche !
-  prix: 4000
+  textEffets: Fait encore un trou de plus par clic
+  description: "Piou Piou va t'aider \xE0 faire plein de trous lorsque tu massacres
+    cette pauvre planche !"
+  prix: 150000
   incrementUpgradeBrut: 1
-  image: {fileID: 0}
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 2f2780ff14b57314ca31b9b0ebda3901, type: 3}
   effets: []
   achete: 0
   cache: 0
@@ -352,7 +846,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7215106141595474210}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7215106140617220514
 MonoBehaviour:
@@ -368,12 +862,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 4
   nom: Piou Piou niveau 4
-  textEffets: Fais 10 trous de plus par clic !
-  description: Piou Piou va t'aider a faire pleins de trous lorsque tu massacre cette
-    pauvre planche !
-  prix: 1000000
+  textEffets: Fait 10 trous de plus par clic !
+  description: "Piou Piou va t'aider \xE0 faire plein de trous lorsque tu massacres
+    cette pauvre planche !"
+  prix: 15954024
   incrementUpgradeBrut: 10
-  image: {fileID: 0}
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: b856007d70562ac459571054a871ace7, type: 3}
   effets: []
   achete: 0
   cache: 0
@@ -386,8 +881,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7215106140964407726}
-  - component: {fileID: 7215106140964407725}
   - component: {fileID: -4807819384393010754}
+  - component: {fileID: 1137207698430335944}
   m_Layer: 0
   m_Name: items and upgrades
   m_TagString: Untagged
@@ -411,18 +906,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7215106140964407725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7215106140964407724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 330b0f655a7b1424b93f36924d46c01e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-4807819384393010754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -436,6 +919,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoSaveFreq: 120
+--- !u!114 &1137207698430335944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7215106140964407724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 278c2d232ad1aee4a93f7f1215ef7d66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paliers:
+  - nom: aaa
+    desc: bbb
+    prix: 0
+  - nom: aaa
+    desc: bbb
+    prix: 1000000
+  - nom: ccc
+    desc: ddd
+    prix: 1000000000
 --- !u!1 &7215106140983566260
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,13 +988,14 @@ MonoBehaviour:
   quantite: 0
   trouParTick: 1
   tickDelay: 2.4
-  prix: 8
-  coefficient: 1.177
+  prix: 16
+  coefficient: 1.605
   incrementTrousParClick: 0
   nom: Perforatrice
-  description: La superbe perforatrice de Thomas fais des pitits trous dans les feuilles
+  description: La superbe perforatrice de Thomas fait des pitits trous dans les feuilles
     !
-  image: {fileID: 21300000, guid: 6e46da33d73c7004fbd5018e6d962270, type: 3}
+  image: {fileID: 21300000, guid: 52fcc382c5045e4458a754488472e947, type: 3}
+  unlockPalier: 1
 --- !u!1 &7215106141045043841
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,7 +1007,7 @@ GameObject:
   - component: {fileID: 7215106141045043842}
   - component: {fileID: 7215106141045043843}
   m_Layer: 0
-  m_Name: Foreuse industrielle
+  m_Name: Pelleteuse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -519,7 +1025,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7215106139868741656}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7215106141045043843
 MonoBehaviour:
@@ -535,14 +1041,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 4
   quantite: 0
-  trouParTick: 51840
-  tickDelay: 96
-  prix: 207360
-  coefficient: 1.232
+  trouParTick: 150
+  tickDelay: 101
+  prix: 4000
+  coefficient: 1.5
   incrementTrousParClick: 0
-  nom: Foreuse industrielle
-  description: Alors celle la, vous l'avez pas vu, mais on aurais adorer l'avoir
-  image: {fileID: 21300000, guid: 0dcdf5b7debd4ba4492217e4975c965e, type: 3}
+  nom: Pelleteuse
+  description: "On a essay\xE9 de la n\xE9gocier elle. On nous a jamais r\xE9pondu."
+  image: {fileID: 21300000, guid: 1445bd87848f12a409b78f8f30eb1c05, type: 3}
+  unlockPalier: 1
 --- !u!1 &7215106141104407643
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,7 +1079,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7215106141595474210}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7215106141104407637
 MonoBehaviour:
@@ -588,12 +1095,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   nom: Piou Piou niveau 3
-  textEffets: Fais ENCORE un trou de plus par clic
-  description: Piou Piou va t'aider a faire pleins de trous lorsque tu massacre cette
-    pauvre planche !
-  prix: 16000
+  textEffets: Fait ENCORE un trou de plus par clic
+  description: "Piou Piou va t'aider \xE0 faire plein de trous lorsque tu massacres
+    cette pauvre planche !"
+  prix: 5318008
   incrementUpgradeBrut: 1
-  image: {fileID: 0}
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 87ef76ac4c88ec645af6129206b5fa26, type: 3}
   effets: []
   achete: 0
   cache: 0
@@ -642,12 +1150,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   nom: Piou Piou niveau 1
-  textEffets: Fais un trou de plus par clic
-  description: Piou Piou va t'aider a faire pleins de trous lorsque tu massacre cette
-    pauvre planche !
-  prix: 1250
+  textEffets: Fait un trou de plus par clic
+  description: "Piou Piou va t'aider \xE0 faire plein de trous lorsque tu massacres
+    cette pauvre planche !"
+  prix: 50000
   incrementUpgradeBrut: 1
-  image: {fileID: 0}
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 7f8e98d9e1c1e6742bbaabb64c43a243, type: 3}
   effets: []
   achete: 0
   cache: 0
@@ -660,7 +1169,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7215106141595474210}
-  - component: {fileID: 8672050668177500396}
   m_Layer: 0
   m_Name: Upgrades
   m_TagString: Untagged
@@ -680,22 +1188,184 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7215106141353605788}
+  - {fileID: 5647944806000759381}
   - {fileID: 7215106140460313545}
   - {fileID: 7215106141104407636}
   - {fileID: 5914696795989013837}
   - {fileID: 7215106140617220513}
+  - {fileID: 2474886629767749961}
+  - {fileID: 1933210304567500449}
+  - {fileID: 8262824098951147212}
+  - {fileID: 1111953001569945410}
+  - {fileID: 802423836549252398}
+  - {fileID: 4558648642651821480}
+  - {fileID: 6682868682878896619}
   m_Father: {fileID: 7215106140964407726}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8672050668177500396
+--- !u!1 &8263791846553173801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3867286917509128089}
+  - component: {fileID: 4006500496960714836}
+  m_Layer: 0
+  m_Name: Bouteille de ricard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3867286917509128089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8263791846553173801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7215106139868741656}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4006500496960714836
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7215106141595474208}
+  m_GameObject: {fileID: 8263791846553173801}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0865c54d80482ee4a829bdca92b88392, type: 3}
+  m_Script: {fileID: 11500000, guid: 5bdf8445e12b823438de245002024c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 7
+  quantite: 0
+  trouParTick: 40
+  tickDelay: 17
+  prix: 888
+  coefficient: 1.7654321
+  incrementTrousParClick: 0
+  nom: Bouteille de Ricard
+  description: "Tu sais ce qui fait des trous de m\xE9moire ? L'alcool, et oui."
+  image: {fileID: 21300000, guid: 61c432ec6ed18d84d8ef2b22b8aa3b5b, type: 3}
+  unlockPalier: 2
+--- !u!1 &8377456566376865530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1933210304567500449}
+  - component: {fileID: 7412778007213402045}
+  m_Layer: 0
+  m_Name: Passe par trous
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1933210304567500449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8377456566376865530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7215106141595474210}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7412778007213402045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8377456566376865530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 9
+  nom: Passe-par-trous
+  textEffets: "Vitesse de production du ricard augment\xE9e de 10%"
+  description: "On a trouv\xE9 ce qu'il faut pour faire plus de trous : un trou."
+  prix: 2400000
+  incrementUpgradeBrut: 0
+  unlockPalier: 2
+  image: {fileID: 21300000, guid: 22cdafcdaa0ca2f4fa29dacbe58753e7, type: 3}
+  effets:
+  - itemId: 7
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.9
+  achete: 0
+  cache: 0
+--- !u!1 &8526816231307771471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1914291407694964663}
+  - component: {fileID: 4937491867893936232}
+  m_Layer: 0
+  m_Name: Foreuse industrielle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1914291407694964663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8526816231307771471}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7215106139868741656}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4937491867893936232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8526816231307771471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdf8445e12b823438de245002024c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 6
+  quantite: 0
+  trouParTick: 1234
+  tickDelay: 80
+  prix: 19200
+  coefficient: 1.123
+  incrementTrousParClick: 0
+  nom: Foreuse industrielle
+  description: "Alors elle on aurait ador\xE9 l'avoir."
+  image: {fileID: 21300000, guid: 1445bd87848f12a409b78f8f30eb1c05, type: 3}
+  unlockPalier: 2

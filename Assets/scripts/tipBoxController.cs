@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -48,12 +48,47 @@ public class tipBoxController : MonoBehaviour
 
     }
 
+    private int idFingerMoving = -1;
+    private Vector3 oldFinger;
+    
+
 
     // Update is called once per frame
     void Update()
     {
         if (transform.childCount == 0) {
             reallyCreateChild();
+        }
+
+
+        Rect hitbox = GetComponent<RectTransform>().rect;
+
+
+        foreach (Touch touch in Input.touches)
+        {
+            int id = touch.fingerId;           
+
+            Debug.Log("id = " + id + " id moved : " + idFingerMoving + " delta = " + touch.deltaPosition + " position = " + touch.position + " local pos parent = " + transform.parent.InverseTransformPoint(touch.position) + " local pos tip :" + transform.InverseTransformPoint(touch.position)  + " rect pos = " + hitbox.position );
+
+            if (hitbox.Contains( transform.InverseTransformPoint(touch.position)) && touch.phase == TouchPhase.Began)
+            {
+                idFingerMoving = id;
+            }
+
+            if (id == idFingerMoving) {
+                
+                if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
+                {
+                    idFingerMoving = -1;
+                }
+                
+                foreach (Transform child in transform) {
+                    child.position += new Vector3(touch.deltaPosition.x, 0, 0);
+                }
+            }
+
+            
+
         }
     }
 }

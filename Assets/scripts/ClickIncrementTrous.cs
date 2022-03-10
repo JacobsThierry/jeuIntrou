@@ -9,8 +9,11 @@ public class ClickIncrementTrous : MonoBehaviour
     public void onClick() {
         GameObject.Find("soundManager").GetComponent<soundManagerController>().playHit();
         TroueurGlobal.nbTrous += TroueurGlobal.getIncrement();
+        TroueurGlobal.nbclic++;
         this.GetComponent<ClickEffetTrou>().quantiteParticleTrous = Mathf.Log( (float) (TroueurGlobal.getIncrement()) + 0.75f);
         heatManager.clickParSeconde += 1;
     }
+
+    
 
 }

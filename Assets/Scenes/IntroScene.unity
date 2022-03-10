@@ -123,6 +123,475 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &145507842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 145507843}
+  - component: {fileID: 145507844}
+  m_Layer: 0
+  m_Name: "Les boules de p\xE9tanque"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &145507843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145507842}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &145507844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145507842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 21
+  nom: "Les boules de p\xE9tanque"
+  textEffets: Production du ricard +80
+  description: "Rien de tel qu'une autre saveur du Sud pour am\xE9liorer le Ricard"
+  prix: 200000000
+  incrementUpgradeBrut: 0
+  unlockPalier: 2
+  image: {fileID: 21300000, guid: a845b32b84f471a48b6d6dd975e4e348, type: 3}
+  effets:
+  - item: {fileID: 1577362679974167788}
+    baseProdUpgrade: 80
+    modificateurTrousParClick: 0
+    speedModifier: 1
+  _achete: 0
+  cache: 0
+--- !u!1 &249791152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 249791153}
+  - component: {fileID: 249791154}
+  m_Layer: 0
+  m_Name: 'C# '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &249791153
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249791152}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &249791154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249791152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 28
+  nom: C#
+  textEffets: "Production augment\xE9e de 666 666 666\nVitesse de production * 0.666"
+  description: "Oh non le d\xE9mon ancien s'est r\xE9veill\xE9 pour faire des trous."
+  prix: 100000000000
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: 7b6e22c8ef0fe364f8c89e12f2f56e5f, type: 3}
+  effets:
+  - item: {fileID: 6678334674381838802}
+    baseProdUpgrade: 666666666
+    modificateurTrousParClick: 0
+    speedModifier: 0.666
+  _achete: 0
+  cache: 0
+--- !u!1 &251429723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 251429724}
+  - component: {fileID: 251429725}
+  m_Layer: 0
+  m_Name: 'Hermes '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &251429724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251429723}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &251429725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251429723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 35
+  nom: 'Hermes '
+  textEffets: "Vitesse de production r\xE9duite de 46%"
+  description: "Aussi rapide que la lumi\xE8re, elle sera un atout majeur pour acc\xE9l\xE9rer
+    votre production !"
+  prix: 6543210123456
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: 1da563c8d6a2335459ceb893a4a9e64d, type: 3}
+  effets:
+  - item: {fileID: 1271592116}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.54321
+  _achete: 0
+  cache: 0
+--- !u!1 &278964181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 278964182}
+  - component: {fileID: 278964183}
+  m_Layer: 0
+  m_Name: 'nyx '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &278964182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278964181}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &278964183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278964181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 31
+  nom: Nyx
+  textEffets: "Vitesse de production r\xE9duite de 46%"
+  description: "Reine de la nuit, cette for\xEAt t\xE9n\xE9breuse pleine de cauchemars
+    est son terrain de jeu."
+  prix: 6543210123456
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: ce88ee1c0c8cc7e41ad49b5226788858, type: 3}
+  effets:
+  - item: {fileID: 1271592116}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.54321
+  _achete: 0
+  cache: 0
+--- !u!1 &307300626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 307300627}
+  - component: {fileID: 307300628}
+  m_Layer: 0
+  m_Name: Sticker sur le chien
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &307300627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307300626}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &307300628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307300626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 15
+  nom: Sticker sur le chien
+  textEffets: "Temps de production du chien r\xE9duit de 50%."
+  description: Grrrrrr (il est pas fan du sticker et il canalise toute cette haine
+    pour faire des trous)
+  prix: 25000000
+  incrementUpgradeBrut: 0
+  unlockPalier: 2
+  image: {fileID: 21300000, guid: 99402785111069342882806017570aa3, type: 3}
+  effets:
+  - item: {fileID: 246639322047514738}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.5
+  _achete: 0
+  cache: 0
+--- !u!1 &338227630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 338227631}
+  - component: {fileID: 338227632}
+  m_Layer: 0
+  m_Name: "Fl\xEAches enduites \xE0 l'alcool "
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &338227631
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338227630}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &338227632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338227630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 16
+  nom: "Fl\xEAches enduites \xE0 l'alcool "
+  textEffets: "Vitesse de production de l'arc divis\xE9 par 2.\n+10 trous par tick"
+  description: "Non seulement \xE7a fait un trou, mais EN PLUS \xE7a le d\xE9sinfecte,
+    utile en p\xE9riode covid."
+  prix: 25000000
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: 86e1a13b97f2698428e837ea71370637, type: 3}
+  effets:
+  - item: {fileID: 7556681516858189414}
+    baseProdUpgrade: 10
+    modificateurTrousParClick: 0
+    speedModifier: 0.5
+  _achete: 0
+  cache: 0
+--- !u!1 &598887385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 598887386}
+  - component: {fileID: 598887387}
+  m_Layer: 0
+  m_Name: "Int\xE9stellar "
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &598887386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598887385}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 41
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &598887387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598887385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 41
+  nom: "Int\xE9stellar "
+  textEffets: Production +727000000
+  description: "Comment \xE7a conjurer des trous noirs c'est de l'overkill ?"
+  prix: 25000000000000
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: 973b205c03a59c74589a7b3088a42cda, type: 3}
+  effets:
+  - item: {fileID: 1271592116}
+    baseProdUpgrade: 727000000
+    modificateurTrousParClick: 0
+    speedModifier: 1
+  _achete: 0
+  cache: 0
+--- !u!1 &608144678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 608144679}
+  - component: {fileID: 608144680}
+  m_Layer: 0
+  m_Name: 'sticker pelleteuse '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &608144679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608144678}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &608144680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608144678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 18
+  nom: 'Sticker sur la pelleteuse '
+  textEffets: "Temps de production de la pelleteuse r\xE9duit de 60%."
+  description: "Qui aurait pens\xE9 qu'ensevelir la pelleteuse sous les stickers
+    la rendrait plus efficace ?"
+  prix: 40000000
+  incrementUpgradeBrut: 0
+  unlockPalier: 2
+  image: {fileID: 21300000, guid: 52d2295f88d3334459111fa16023d488, type: 3}
+  effets:
+  - item: {fileID: 246639323552221508}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.4
+  _achete: 0
+  cache: 0
 --- !u!1 &625058685
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,12 +640,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1280, y: 720}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.081
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -198,7 +667,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -222,6 +691,747 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &626379737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 626379738}
+  - component: {fileID: 626379739}
+  m_Layer: 0
+  m_Name: Perfo4Trous
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &626379738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626379737}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &626379739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626379737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 13
+  nom: Perfo4Trous
+  textEffets: +4 trous par tick
+  description: "Gr\xE2ce a un syst\xE8me ing\xE9nieux, tu peux faire les trous 4
+    par 4"
+  prix: 4444444
+  incrementUpgradeBrut: 0
+  unlockPalier: 2
+  image: {fileID: 21300000, guid: 76f131f6aa1b0404aa69b54fa6596429, type: 3}
+  effets:
+  - item: {fileID: 246639323692344433}
+    baseProdUpgrade: 4
+    modificateurTrousParClick: 0
+    speedModifier: 1
+  _achete: 0
+  cache: 0
+--- !u!1 &637903887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 637903888}
+  - component: {fileID: 637903889}
+  m_Layer: 0
+  m_Name: Robin gueule de bois
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &637903888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637903887}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &637903889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637903887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 8
+  nom: Robin gueule de bois
+  textEffets: "Vitesse de production de l'arc augment\xE9e de 50%\n+1 trou par click
+    par arc"
+  description: 'Personne ne sait mieux manier l''arc qu''elle : ses skills lui permettent
+    de tirer plus rapidement !'
+  prix: 100000
+  incrementUpgradeBrut: 0
+  unlockPalier: 2
+  image: {fileID: 21300000, guid: c33bcce81d5adf0449d0abe727c7c30b, type: 3}
+  effets:
+  - item: {fileID: 7556681516858189414}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 1
+    speedModifier: 0.5
+  _achete: 0
+  cache: 0
+--- !u!1 &649500710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 649500711}
+  - component: {fileID: 649500712}
+  m_Layer: 0
+  m_Name: 'athena '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &649500711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649500710}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &649500712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649500710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 32
+  nom: "Ath\xE9na "
+  textEffets: "Vitesse de production r\xE9duite de 46%"
+  description: Sa sagesse est un atout essentiel pour parfaire l'art des trous dans
+    toutes les situations.
+  prix: 6543210123456
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: 9d4ae28e39d1a1647a7dda1d39901ff5, type: 3}
+  effets:
+  - item: {fileID: 1271592116}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.54321
+  _achete: 0
+  cache: 0
+--- !u!114 &919649093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6828372235023178070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15b92dcd0e373994592bf2ab74f18bfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 6828372235325089454}
+  items: {fileID: 246639323731980905}
+--- !u!1 &956605864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 956605865}
+  - component: {fileID: 956605866}
+  m_Layer: 0
+  m_Name: "Ga\xEFa "
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &956605865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956605864}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &956605866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956605864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 36
+  nom: "Ga\xEFa "
+  textEffets: "Vitesse de production r\xE9duite de 46%"
+  description: "D\xE9esse-m\xE8re, elle est \xE0 l'origine de toute vie : personne
+    ne doutera qu'elle attendait avec impatience le jour o\xF9 elle utiliserait ses
+    pouvoirs pour trouer des arbres."
+  prix: 6543210123456
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: 039366633f483ae468f0577bcdd6fff7, type: 3}
+  effets:
+  - item: {fileID: 1271592116}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.54321
+  _achete: 0
+  cache: 0
+--- !u!1 &961350049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 961350050}
+  - component: {fileID: 961350051}
+  m_Layer: 0
+  m_Name: Noyo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &961350050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961350049}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &961350051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961350049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  nom: Noyo
+  textEffets: Fait MILLE trous de plus par clic !
+  description: "Vous l'avez trouv\xE9 dans un trou dans la for\xEAt  le cousin de
+    piou qui travaille \xE0 TGD !!! Il va vous aider\u2026"
+  prix: 1000
+  incrementUpgradeBrut: 1000
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: c3fc0a9c4e440874fbf376ccab2dd29b, type: 3}
+  effets: []
+  _achete: 0
+  cache: 0
+--- !u!1 &1035020688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1035020689}
+  - component: {fileID: 1035020690}
+  m_Layer: 0
+  m_Name: 'sticker foreuse '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1035020689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035020688}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1035020690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035020688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 26
+  nom: 'Sticker sur la foreuse '
+  textEffets: 'Temps de producion de la foreuse -66%
+
+    +55555 trous par click
+    par foreuse'
+  description: Qui l'eut cru ? Mettre un sticker sur la foreuse la rend plus rapide.
+  prix: 7500000000
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: f257e165710fa59419ffc7ec28f1b1e4, type: 3}
+  effets:
+  - item: {fileID: 1231839818709845386}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 55555
+    speedModifier: 0.33
+  _achete: 0
+  cache: 0
+--- !u!114 &1105632587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6803943955935631659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58ae236faa3cb624aafbc0101c3f4d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foretPalier:
+  - sprite: {fileID: 21300000, guid: 4808df3bffc1971408497303baaf9cbc, type: 3}
+    filter:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0.40850496, g: 0.3607843, b: 1, a: 0}
+      key3: {r: 0, g: 0.73181987, b: 1, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 49151
+      ctime3: 65535
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    background:
+      serializedVersion: 2
+      key0: {r: 0, g: 0.2264151, b: 0, a: 1}
+      key1: {r: 0.011764707, g: 0.15294118, b: 0.003921569, a: 1}
+      key2: {r: 0.40850496, g: 0.3607843, b: 1, a: 0}
+      key3: {r: 0, g: 0.73181987, b: 1, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 49151
+      ctime3: 65535
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradSpeed: 0.05
+  - sprite: {fileID: 21300000, guid: 1be03e0770453bc47bc83c674fd47b38, type: 3}
+    filter:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0.40850496, g: 0.3607843, b: 1, a: 0}
+      key3: {r: 0, g: 0.73181987, b: 1, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 49151
+      ctime3: 65535
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    background:
+      serializedVersion: 2
+      key0: {r: 1, g: 0, b: 0.5696964, a: 1}
+      key1: {r: 0.97020435, g: 0, b: 1, a: 1}
+      key2: {r: 0.40850496, g: 0.3607843, b: 1, a: 0}
+      key3: {r: 0, g: 0.636478, b: 0.8679245, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 16384
+      ctime2: 49151
+      ctime3: 65535
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 4
+      m_NumAlphaKeys: 2
+    gradSpeed: 0.3
+  - sprite: {fileID: 21300000, guid: 8dfe56fe7d4bd76439b5b1643245ecc5, type: 3}
+    filter:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    background:
+      serializedVersion: 2
+      key0: {r: 0.054901965, g: 0.054901965, b: 0.15294118, a: 1}
+      key1: {r: 0, g: 0, b: 0.2735849, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradSpeed: 0.1
+  - sprite: {fileID: 21300000, guid: 8dfe56fe7d4bd76439b5b1643245ecc5, type: 3}
+    filter:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 0}
+      key1: {r: 1, g: 1, b: 1, a: 0}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    background:
+      serializedVersion: 2
+      key0: {r: 0.45539337, g: 0.45539337, b: 0.7735849, a: 1}
+      key1: {r: 0.3584906, g: 0.018893745, b: 0.011498731, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    gradSpeed: 0.1
+  bg: {fileID: 0}
+  palier: 1
+--- !u!1 &1121110905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1121110906}
+  - component: {fileID: 1121110907}
+  m_Layer: 0
+  m_Name: 'chronos '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1121110906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121110905}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1121110907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121110905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 34
+  nom: 'Chronos '
+  textEffets: "Vitesse de production r\xE9duite de 46%"
+  description: "Vous cherchez \xE0 gagner du temps, \xE0 produire plus rapidement
+    ? Soyez tranquilles car Cronos est l\xE0 pour vous aider !"
+  prix: 6543210123456
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: 4065fe3bb89cb284ebef6e46c8e85a2d, type: 3}
+  effets:
+  - item: {fileID: 1271592116}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.54321
+  _achete: 0
+  cache: 0
+--- !u!1 &1143876768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1143876769}
+  - component: {fileID: 1143876770}
+  m_Layer: 0
+  m_Name: 'kratos '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1143876769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143876768}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1143876770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143876768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 29
+  nom: 'Kratos '
+  textEffets: "Vitesse de production r\xE9duite de 46%"
+  description: "Son incroyable puissance physique est un atout de poids pour la qu\xEAte
+    de Piou Piou."
+  prix: 6543210123456
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: d73980b6df3f1dd4f99a4ffe2cddaf3e, type: 3}
+  effets:
+  - item: {fileID: 1271592116}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.54321
+  _achete: 0
+  cache: 0
 --- !u!1 &1149460761
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,6 +1515,182 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1207841337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1207841338}
+  - component: {fileID: 1207841339}
+  m_Layer: 0
+  m_Name: 'C++ '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1207841338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207841337}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1207841339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207841337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 23
+  nom: C++
+  textEffets: 'Production du C +6666666
+
+    Temps de production * 0.666'
+  description: Oh non, un cauchemard plus rapide a vu le jour
+  prix: 2000000000
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: b350d5f10dfb6da4483da92539615b48, type: 3}
+  effets:
+  - item: {fileID: 6678334674381838802}
+    baseProdUpgrade: 6666666
+    modificateurTrousParClick: 0
+    speedModifier: 0.666
+  _achete: 0
+  cache: 0
+--- !u!1 &1222533000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1222533001}
+  - component: {fileID: 1222533002}
+  m_Layer: 0
+  m_Name: 'apollon '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1222533001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222533000}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 40
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1222533002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222533000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 40
+  nom: 'Apollon '
+  textEffets: "Vitesse de production r\xE9duite de 46%"
+  description: "Beau et charismatique, il parviendra \xE9galement \xE0 amener la
+    lumi\xE8re du soleil pour \xE9carter les ombres de cette for\xEAt noire."
+  prix: 6543210123456
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: eb82fdf8a0a41c540b04647bb88452ff, type: 3}
+  effets:
+  - item: {fileID: 1271592116}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.54321
+  _achete: 0
+  cache: 0
+--- !u!1 &1271592116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1271592117}
+  - component: {fileID: 1271592118}
+  m_Layer: 0
+  m_Name: "Fantome du pass\xE9"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1271592117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271592116}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322577402845}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1271592118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271592116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdf8445e12b823438de245002024c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 9
+  quantite: 0
+  trouParTick: 694201337
+  tickDelay: 2500
+  prix: 9876543210
+  coefficient: 1.7
+  incrementTrousParClick: 10000
+  nom: "Fant\xF4me d'une int\xE9 pass\xE9e"
+  description: "C'est en Gr\xE8ce antique que l'anc\xEAtre de Piou Piou r\xE9ussit
+    l'\xE9preuve de force d'atteindre le sommet de l'Olympe : impressionn\xE9s par
+    une si petite cr\xE9ature, les dieux accordent leur b\xE9n\xE9diction \xE0 toute
+    la lign\xE9e. M\xEAme dans la mort, cette promesse est tenue"
+  image: {fileID: 21300000, guid: 0847c77dc24a01244910a92b60915a09, type: 3}
+  unlockPalier: 3
 --- !u!1 &1289260205
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,6 +1757,765 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1307230550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1307230551}
+  - component: {fileID: 1307230552}
+  m_Layer: 0
+  m_Name: 'hypnos '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1307230551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307230550}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1307230552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307230550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 30
+  nom: 'Hypnos '
+  textEffets: "Vitesse de production r\xE9duite de 46%"
+  description: "Car il est aussi important de savoir se reposer pour pouvoir faire
+    des trous de qualit\xE9."
+  prix: 6543210123456
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: 8ca6aa356bf750c4c8e26d329c66735d, type: 3}
+  effets:
+  - item: {fileID: 1271592116}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.54321
+  _achete: 0
+  cache: 0
+--- !u!1 &1395510820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1395510821}
+  - component: {fileID: 1395510822}
+  m_Layer: 0
+  m_Name: PerfoRapide
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1395510821
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395510820}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1395510822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395510820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 6
+  nom: PerfoRapide
+  textEffets: Temps de production de la perforatrice -25%
+  description: En perforant plus vite, on fait plus de trous.
+  prix: 50000
+  incrementUpgradeBrut: 0
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 52fcc382c5045e4458a754488472e947, type: 3}
+  effets:
+  - item: {fileID: 246639323692344433}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.75
+  _achete: 0
+  cache: 0
+--- !u!1 &1466019126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1466019127}
+  - component: {fileID: 1466019128}
+  m_Layer: 0
+  m_Name: 'Dionysos '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1466019127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466019126}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1466019128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466019126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 33
+  nom: 'Dionysos '
+  textEffets: "Vitesse de production r\xE9duite de 46%"
+  description: "On a trouv\xE9 ce qu'il fallait pour augmenter les trous  : un trou"
+  prix: 6543210123456
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: f919e688cce3b694ba174a0dac4044ab, type: 3}
+  effets:
+  - item: {fileID: 1271592116}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.54321
+  _achete: 0
+  cache: 0
+--- !u!1 &1525669115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1525669116}
+  - component: {fileID: 1525669117}
+  m_Layer: 0
+  m_Name: 'dressage '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1525669116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525669115}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1525669117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525669115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 19
+  nom: Dressage de chien
+  textEffets: "Production augment\xE9 de 50000"
+  description: Ouaf, ouaf ! O U A F
+  prix: 100000000
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: 5be71bc7d73725f40af4c429987423c2, type: 3}
+  effets:
+  - item: {fileID: 246639322047514738}
+    baseProdUpgrade: 50000
+    modificateurTrousParClick: 0
+    speedModifier: 1
+  _achete: 0
+  cache: 0
+--- !u!1 &1567240753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1567240754}
+  - component: {fileID: 1567240755}
+  m_Layer: 0
+  m_Name: 'hades '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1567240754
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567240753}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1567240755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567240753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 38
+  nom: "Had\xE8s "
+  textEffets: "Vitesse de production r\xE9duite de 46%"
+  description: "Habitu\xE9 au quotidien des Enfers, il saura vous r\xE9v\xE9ler quelques
+    informations utiles pour trouer une for\xEAt hant\xE9e par les morts."
+  prix: 6543210123456
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: a424a5d8260f2474bbd831bdfd474de0, type: 3}
+  effets:
+  - item: {fileID: 1271592116}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.54321
+  _achete: 0
+  cache: 0
+--- !u!1 &1619436309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1619436310}
+  - component: {fileID: 1619436311}
+  m_Layer: 0
+  m_Name: Piou Piou niveau 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1619436310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619436309}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1619436311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619436309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 22
+  nom: Piou Piou niveau 7
+  textEffets: Fait 4096 trous de plus par clic !
+  description: Piou piou a de superbes lunettes maintenant !
+  prix: 268435456
+  incrementUpgradeBrut: 4096
+  unlockPalier: 2
+  image: {fileID: 21300000, guid: 02b07658f73d3b049ac4fb39f1a61221, type: 3}
+  effets: []
+  _achete: 0
+  cache: 0
+--- !u!1 &1673929623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1673929624}
+  - component: {fileID: 1673929625}
+  m_Layer: 0
+  m_Name: "Art\xE9mis "
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1673929624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673929623}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1673929625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673929623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 39
+  nom: "Art\xE9mis "
+  textEffets: "Vitesse de production r\xE9duite de 46%"
+  description: "D\xE9esse de la Nature, elle sait dire les mots justes \xE0 Piou
+    Piou pour le faire progresser."
+  prix: 6543210123456
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: d73ea5887d4a1bc44ba6a46afbf20dd7, type: 3}
+  effets:
+  - item: {fileID: 1271592116}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.54321
+  _achete: 0
+  cache: 0
+--- !u!1 &1706556945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1706556946}
+  - component: {fileID: 1706556947}
+  m_Layer: 0
+  m_Name: "B\xE9n\xE9diction"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1706556946
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706556945}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1706556947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706556945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 4
+  nom: "B\xE9n\xE9diction de la perceuse"
+  textEffets: 'Fais 99 trous de plus par tick
+
+    Fais 1 trou de plus par click'
+  description: "Maintenant b\xE9nie du sang des membres de l'int\xE9 bless\xE9s avec
+    cet objet, la perceuse r\xE9v\xE8le enfin son vrai potentiel."
+  prix: 30000
+  incrementUpgradeBrut: 0
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: f4b52f58496397445899fd6aaf6c8357, type: 3}
+  effets:
+  - item: {fileID: 246639322679870362}
+    baseProdUpgrade: 100
+    modificateurTrousParClick: 1
+    speedModifier: 1
+  _achete: 0
+  cache: 0
+--- !u!1 &1802117951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1802117952}
+  - component: {fileID: 1802117953}
+  m_Layer: 0
+  m_Name: Diggy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1802117952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802117951}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1802117953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802117951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 14
+  nom: Le gang des nains mineurs
+  textEffets: "Temps de production de la pelle augment\xE9 de 10%\n+99 trous par
+    tick"
+  description: "C'est 3 nains qui vont \xE0 la mine. Le premier prend une pelle,
+    le deuxi\xE8me prend une pioche, que prend le 3e ?"
+  prix: 9999999
+  incrementUpgradeBrut: 0
+  unlockPalier: 2
+  image: {fileID: 21300000, guid: ed0943b79e3926043b50ec40c8d3acf1, type: 3}
+  effets:
+  - item: {fileID: 246639322167490558}
+    baseProdUpgrade: 99
+    modificateurTrousParClick: 0
+    speedModifier: 0.9
+  _achete: 0
+  cache: 0
+--- !u!1 &1868486408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1868486409}
+  - component: {fileID: 1868486410}
+  m_Layer: 0
+  m_Name: 'poseidon '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1868486409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868486408}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1868486410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868486408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 37
+  nom: "Pos\xE9idon "
+  textEffets: "Vitesse de production r\xE9duite de 46%"
+  description: "Bien que loin des oc\xE9ans, ses pouvoirs restent impressionnants
+    et son aide vous sera pr\xE9cieuse."
+  prix: 6543210123456
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: a6aed24c47317014fa833c402648250d, type: 3}
+  effets:
+  - item: {fileID: 1271592116}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.54321
+  _achete: 0
+  cache: 0
+--- !u!1 &1920249606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1920249607}
+  - component: {fileID: 1920249608}
+  m_Layer: 0
+  m_Name: "\xE9norme foret "
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1920249607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920249606}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1920249608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920249606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 20
+  nom: "\xE9norme foret "
+  textEffets: 'Production de la perceuse + 1337
+
+'
+  description: Qu'est-ce que c'est que cette merde ? - Tom
+  prix: 133700000
+  incrementUpgradeBrut: 0
+  unlockPalier: 2
+  image: {fileID: 21300000, guid: 5f42ba06f56489c4d9f69b152d8ad73f, type: 3}
+  effets:
+  - item: {fileID: 246639322679870362}
+    baseProdUpgrade: 1337
+    modificateurTrousParClick: 0
+    speedModifier: 1
+  _achete: 0
+  cache: 0
+--- !u!1 &1923798801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1923798802}
+  - component: {fileID: 1923798803}
+  m_Layer: 0
+  m_Name: 'supelleteuse '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1923798802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923798801}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1923798803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923798801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 25
+  nom: 'Supelleteuse '
+  textEffets: "Production de la pelteuse +300000\nTemps de production de la pelleteuse
+    diminu\xE9 de 60%\n+500 trous par click par pelleteuse"
+  description: "Oh non, piou piou a pris le contr\xF4le de la pelleteuse. Cachez-vous
+    !"
+  prix: 4000000000
+  incrementUpgradeBrut: 0
+  unlockPalier: 2
+  image: {fileID: 21300000, guid: 5fa04d50aa5671b4d911d15839511781, type: 3}
+  effets:
+  - item: {fileID: 246639323552221508}
+    baseProdUpgrade: 300000
+    modificateurTrousParClick: 500
+    speedModifier: 0.4
+  _achete: 0
+  cache: 0
+--- !u!1 &1986776344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1986776345}
+  - component: {fileID: 1986776346}
+  m_Layer: 0
+  m_Name: La police
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1986776345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986776344}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 43
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1986776346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986776344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 43
+  nom: La police
+  textEffets: +3 trous par click
+  description: Leurs guns font piou piou quand ils trouent notre moral.
+  prix: 1000000
+  incrementUpgradeBrut: 3
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: e132f9627536f1e41af4737d2d3fa4e4, type: 3}
+  effets: []
+  _achete: 0
+  cache: 1
 --- !u!1 &1994785703
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,6 +2528,7 @@ GameObject:
   - component: {fileID: 1994785706}
   - component: {fileID: 1994785705}
   - component: {fileID: 1994785707}
+  - component: {fileID: 1994785708}
   m_Layer: 5
   m_Name: PiouPiou
   m_TagString: Untagged
@@ -406,7 +2552,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -3, y: 0}
   m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1994785705
@@ -466,60 +2612,2154 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1001 &8969255840107555918
-PrefabInstance:
+--- !u!114 &1994785708
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8969255839693309403, guid: 3bc948b428fa6824d879dc916b79e31d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8969255839693309403, guid: 3bc948b428fa6824d879dc916b79e31d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8969255839693309403, guid: 3bc948b428fa6824d879dc916b79e31d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8969255839693309403, guid: 3bc948b428fa6824d879dc916b79e31d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8969255839693309403, guid: 3bc948b428fa6824d879dc916b79e31d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8969255839693309403, guid: 3bc948b428fa6824d879dc916b79e31d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8969255839693309403, guid: 3bc948b428fa6824d879dc916b79e31d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8969255839693309403, guid: 3bc948b428fa6824d879dc916b79e31d, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8969255839693309403, guid: 3bc948b428fa6824d879dc916b79e31d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8969255839693309403, guid: 3bc948b428fa6824d879dc916b79e31d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8969255839693309403, guid: 3bc948b428fa6824d879dc916b79e31d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8969255839693309405, guid: 3bc948b428fa6824d879dc916b79e31d, type: 3}
-      propertyPath: m_Name
-      value: soundManager
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3bc948b428fa6824d879dc916b79e31d, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994785703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2642fb8f9d7429147843b45c3ff23699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sceneName: testGameScene
+  dontDestroyOnLoad: {fileID: 6828372235023178070}
+--- !u!1 &2049108599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2049108600}
+  - component: {fileID: 2049108601}
+  m_Layer: 0
+  m_Name: Piou Piou niveau 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2049108600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049108599}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2049108601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049108599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 17
+  nom: Piou Piou niveau 6
+  textEffets: Fait 1024 trous de plus par clic !
+  description: Piou piou va maintenant faire un trou dans ton coeur
+  prix: 33554432
+  incrementUpgradeBrut: 1024
+  unlockPalier: 2
+  image: {fileID: 21300000, guid: 4e4c080efd2ca924cb879e5668e181d7, type: 3}
+  effets: []
+  _achete: 0
+  cache: 0
+--- !u!1 &2071078815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2071078816}
+  - component: {fileID: 2071078817}
+  m_Layer: 0
+  m_Name: Piou Piou niveau MAX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2071078816
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071078815}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2071078817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071078815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 24
+  nom: Piou Piou niveau MAX
+  textEffets: Fait 4 0 9 6 trous de plus par clic !
+  description: Il est M A X
+  prix: 2147483648
+  incrementUpgradeBrut: 4096
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: 186554acd6402d64386608eec154141d, type: 3}
+  effets: []
+  _achete: 0
+  cache: 0
+--- !u!1 &2076647120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2076647121}
+  - component: {fileID: 2076647122}
+  m_Layer: 0
+  m_Name: 'foreuse foireuse '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2076647121
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076647120}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2076647122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076647120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 27
+  nom: 'foreuse foireuse '
+  textEffets: "Production augment\xE9e de 123 456 789.\nVitesse de production -66%"
+  description: "OHNO la foreuse fait n'importe quoi, elle devient sentiente. Elle
+    veut faire des trous et rien ne l'arr\xEAtera."
+  prix: 75000000000
+  incrementUpgradeBrut: 0
+  unlockPalier: 3
+  image: {fileID: 21300000, guid: d3c5864f1dc990c4784454d9b782b9ae, type: 3}
+  effets:
+  - item: {fileID: 1231839818709845386}
+    baseProdUpgrade: 123456789
+    modificateurTrousParClick: 0
+    speedModifier: 0.33
+  _achete: 0
+  cache: 0
+--- !u!1 &2115885526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2115885527}
+  - component: {fileID: 2115885528}
+  m_Layer: 0
+  m_Name: Sticker sur la pelle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2115885527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115885526}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2115885528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115885526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 5
+  nom: Sticker sur la pelle
+  textEffets: Temps de production de la pelle -25%
+  description: "Mettre un sticker sur la pelle encourage les membres de l'introu
+    \xE0 travailler plus vite."
+  prix: 40000
+  incrementUpgradeBrut: 0
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: f88605885e2d57c40abcc53b90261d79, type: 3}
+  effets:
+  - item: {fileID: 246639322167490558}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.75
+  _achete: 0
+  cache: 0
+--- !u!114 &113280157645266040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373525018510337343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 11
+  nom: Prince Ericard
+  textEffets: "Vitesse de production du ricard augment\xE9e de 50%"
+  description: "Rien de tel qu'un prince de renomm\xE9 pour rendre le ricard plus
+    d\xE9lectable."
+  prix: 2000000
+  incrementUpgradeBrut: 0
+  unlockPalier: 2
+  image: {fileID: 21300000, guid: 8b5e9ad7ea48d5242a0e348bae4b5c4d, type: 3}
+  effets:
+  - item: {fileID: 1577362679974167788}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.5
+  _achete: 0
+  cache: 0
+--- !u!1 &246639322047514738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246639322047514741}
+  - component: {fileID: 246639322047514740}
+  m_Layer: 0
+  m_Name: Chien
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &246639322047514740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639322047514738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdf8445e12b823438de245002024c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 5
+  quantite: 0
+  trouParTick: 2000
+  tickDelay: 60
+  prix: 200000
+  coefficient: 1.4
+  incrementTrousParClick: 3
+  nom: Un chien
+  description: "On a r\xE9ussi \xE0 convaincre Benjamin de nous pr\xEAter son chien
+    ! Ce dernier adore faire pleiiiins de trous dans le jardin"
+  image: {fileID: 21300000, guid: e2a4aaaee87e21249a4bb44a7c9e3773, type: 3}
+  unlockPalier: 1
+--- !u!4 &246639322047514741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639322047514738}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322577402845}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &246639322087018508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639322087018509}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &246639322087018509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246639322087018508}
+  - component: {fileID: 246639322087018511}
+  m_Layer: 0
+  m_Name: Piou Piou niveau 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &246639322087018511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639322087018509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 3
+  nom: Piou Piou niveau 2
+  textEffets: Fais 4 trous de plus par clic
+  description: "Piou Piou va t'aider \xE0 faire plein de trous lorsque tu massacres
+    cette pauvre planche !"
+  prix: 8192
+  incrementUpgradeBrut: 4
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 2f2780ff14b57314ca31b9b0ebda3901, type: 3}
+  effets: []
+  _achete: 0
+  cache: 0
+--- !u!114 &246639322167490544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639322167490558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdf8445e12b823438de245002024c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 2
+  quantite: 0
+  trouParTick: 5
+  tickDelay: 10
+  prix: 750
+  coefficient: 1.2
+  incrementTrousParClick: 0
+  nom: Pelle
+  description: "Cette pelle, de la taille exacte de Morgane, vous aidera \xE0 faire
+    plein de trous !"
+  image: {fileID: 21300000, guid: 0d3812cbf43b74f4b9833af73afec5b9, type: 3}
+  unlockPalier: 1
+--- !u!4 &246639322167490545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639322167490558}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322577402845}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &246639322167490558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246639322167490545}
+  - component: {fileID: 246639322167490544}
+  m_Layer: 0
+  m_Name: Pelle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &246639322577402843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246639322577402845}
+  - component: {fileID: 246639322577402844}
+  m_Layer: 0
+  m_Name: Items
+  m_TagString: Item
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &246639322577402844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639322577402843}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12cdc343dfb46a49931ebfc461533d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &246639322577402845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639322577402843}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -611.63666, y: -1137.5453, z: 1134.2783}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 246639323692344432}
+  - {fileID: 9165502049912059470}
+  - {fileID: 246639322167490545}
+  - {fileID: 5973555485526598748}
+  - {fileID: 246639322679870365}
+  - {fileID: 246639322047514741}
+  - {fileID: 246639323552221511}
+  - {fileID: 355227608548120326}
+  - {fileID: 9069655922682240114}
+  - {fileID: 1271592117}
+  m_Father: {fileID: 246639323731980907}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &246639322679870362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246639322679870365}
+  - component: {fileID: 246639322679870364}
+  m_Layer: 0
+  m_Name: Perceuse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &246639322679870364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639322679870362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdf8445e12b823438de245002024c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 4
+  quantite: 0
+  trouParTick: 1
+  tickDelay: 30
+  prix: 10000
+  coefficient: 1.3
+  incrementTrousParClick: 0
+  nom: Perceuse
+  description: "Si vous voyez une t\xE2che de sang dans les couloirs de l'\xE9cole,
+    ne cherchez plus le coupable, on l'a trouv\xE9. C'est la perceuse \xE0 percussion
+    filaire Bosch - Easyimpact 550 (550W, \xD8 de per\xE7age max b\xE9ton :10mm,
+    bois: 25mm, livr\xE9e avec accessoires et coffret de rangement)."
+  image: {fileID: 21300000, guid: f238528848f9702468bec03444b0428f, type: 3}
+  unlockPalier: 1
+--- !u!4 &246639322679870365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639322679870362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322577402845}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &246639322787037510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246639322787037529}
+  - component: {fileID: 246639322787037528}
+  m_Layer: 0
+  m_Name: Piou Piou niveau 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &246639322787037528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639322787037510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 1
+  nom: Piou Piou niveau 1
+  textEffets: Fait un trou de plus par clic
+  description: "Piou Piou va t'aider \xE0 faire plein de trous lorsque tu massacres
+    cette pauvre planche !"
+  prix: 1024
+  incrementUpgradeBrut: 1
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 7f8e98d9e1c1e6742bbaabb64c43a243, type: 3}
+  effets: []
+  _achete: 0
+  cache: 0
+--- !u!4 &246639322787037529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639322787037510}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &246639322961945317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246639322961945319}
+  - component: {fileID: 246639322961945318}
+  m_Layer: 0
+  m_Name: Upgrades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &246639322961945318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639322961945317}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12cdc343dfb46a49931ebfc461533d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &246639322961945319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639322961945317}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -77.398254, y: 377.30725, z: 224.0133}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 961350050}
+  - {fileID: 246639322787037529}
+  - {fileID: 2966902411671873936}
+  - {fileID: 246639322087018508}
+  - {fileID: 1706556946}
+  - {fileID: 2115885527}
+  - {fileID: 1395510821}
+  - {fileID: 246639323603484561}
+  - {fileID: 637903888}
+  - {fileID: 246639323392842340}
+  - {fileID: 3843875611182583432}
+  - {fileID: 9050314821578089828}
+  - {fileID: 4978053876959156876}
+  - {fileID: 626379738}
+  - {fileID: 1802117952}
+  - {fileID: 307300627}
+  - {fileID: 338227631}
+  - {fileID: 2049108600}
+  - {fileID: 608144679}
+  - {fileID: 1525669116}
+  - {fileID: 1920249607}
+  - {fileID: 145507843}
+  - {fileID: 1619436310}
+  - {fileID: 1207841338}
+  - {fileID: 2071078816}
+  - {fileID: 1923798802}
+  - {fileID: 1035020689}
+  - {fileID: 2076647121}
+  - {fileID: 249791153}
+  - {fileID: 1143876769}
+  - {fileID: 1307230551}
+  - {fileID: 278964182}
+  - {fileID: 649500711}
+  - {fileID: 1466019127}
+  - {fileID: 1121110906}
+  - {fileID: 251429724}
+  - {fileID: 956605865}
+  - {fileID: 1868486409}
+  - {fileID: 1567240754}
+  - {fileID: 1673929624}
+  - {fileID: 1222533001}
+  - {fileID: 598887386}
+  - {fileID: 6345179551233453677}
+  - {fileID: 1986776345}
+  - {fileID: 4319893560848020014}
+  - {fileID: 7503976350856920199}
+  - {fileID: 1578084354268501257}
+  - {fileID: 7813677033217638123}
+  m_Father: {fileID: 246639323731980907}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &246639323392842340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639323392842341}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &246639323392842341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246639323392842340}
+  - component: {fileID: 246639323392842343}
+  m_Layer: 0
+  m_Name: Piou Piou niveau 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &246639323392842343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639323392842341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 9
+  nom: Piou Piou niveau 4
+  textEffets: Fait 64 trous de plus par clic !
+  description: "Piou Piou va t'aider \xE0 faire plein de trous lorsque tu massacres
+    cette pauvre planche !"
+  prix: 524288
+  incrementUpgradeBrut: 64
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: b856007d70562ac459571054a871ace7, type: 3}
+  effets: []
+  _achete: 0
+  cache: 0
+--- !u!1 &246639323552221508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246639323552221511}
+  - component: {fileID: 246639323552221510}
+  m_Layer: 0
+  m_Name: Pelleteuse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &246639323552221510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639323552221508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdf8445e12b823438de245002024c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 6
+  quantite: 0
+  trouParTick: 30000
+  tickDelay: 100
+  prix: 4000000
+  coefficient: 1.5
+  incrementTrousParClick: 20
+  nom: Pelleteuse
+  description: "On a essay\xE9 de la n\xE9gocier elle. On nous a jamais r\xE9pondu."
+  image: {fileID: 21300000, guid: 1445bd87848f12a409b78f8f30eb1c05, type: 3}
+  unlockPalier: 1
+--- !u!4 &246639323552221511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639323552221508}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322577402845}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &246639323603484560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639323603484574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 7
+  nom: Piou Piou niveau 3
+  textEffets: Fais 16 trous de plus par click !
+  description: "Piou Piou va t'aider \xE0 faire plein de trous lorsque tu massacres
+    cette pauvre planche !"
+  prix: 65536
+  incrementUpgradeBrut: 16
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 87ef76ac4c88ec645af6129206b5fa26, type: 3}
+  effets: []
+  _achete: 0
+  cache: 0
+--- !u!4 &246639323603484561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639323603484574}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &246639323603484574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246639323603484561}
+  - component: {fileID: 246639323603484560}
+  m_Layer: 0
+  m_Name: Piou Piou niveau 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &246639323692344432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639323692344433}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322577402845}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &246639323692344433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246639323692344432}
+  - component: {fileID: 246639323692344435}
+  m_Layer: 0
+  m_Name: Perforatrice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &246639323692344435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639323692344433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdf8445e12b823438de245002024c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  quantite: 0
+  trouParTick: 1
+  tickDelay: 3
+  prix: 50
+  coefficient: 1.1
+  incrementTrousParClick: 0
+  nom: Perforatrice
+  description: La superbe perforatrice de Thomas fait des pitits trous dans les feuilles
+    !
+  image: {fileID: 21300000, guid: 52fcc382c5045e4458a754488472e947, type: 3}
+  unlockPalier: 1
+--- !u!1 &246639323731980905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246639323731980907}
+  - component: {fileID: 6488060165991418491}
+  - component: {fileID: 7531467212767633421}
+  m_Layer: 0
+  m_Name: items and upgrades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &246639323731980907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639323731980905}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 611.63666, y: 1137.5453, z: -1134.2783}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 246639322577402845}
+  - {fileID: 246639322961945319}
+  m_Father: {fileID: 6828372235023178064}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &354847066109671786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2497405633019662859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae2b07e580d2ca459b30f3e9cd951e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pool:
+    prefab: {fileID: 4727929719403843129, guid: e59f377d96da51241b969938888e9b13, type: 3}
+    id: 
+    mode: 0
+    despawnPos: {x: -100, y: -100, z: -100}
+    despawned: []
+    spawned: []
+    m_Root: {fileID: 6999758181118165797}
+    allowGrowth: 1
+    debugMessages: 1
+    useCustomRoot: 1
+    audioSourceHandling: 0
+    particleSystemHandling: 0
+    size: 25
+    playOnSpawn: 0
+    stopOnDespawn: 0
+    Audio: 0
+    Particles: 0
+    foldout: 0
+  rainChance: 0.206789
+  spread: 0.9
+  quantiteParticleTrous: 0.03877778
+--- !u!4 &355227608548120326
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6678334674381838802}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322577402845}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1231839818709845386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9069655922682240114}
+  - component: {fileID: 2578442002373872557}
+  m_Layer: 0
+  m_Name: Foreuse industrielle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1373525018510337343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9050314821578089828}
+  - component: {fileID: 113280157645266040}
+  m_Layer: 0
+  m_Name: Prince Ericard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1577362679974167788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5973555485526598748}
+  - component: {fileID: 5824556329389736849}
+  m_Layer: 0
+  m_Name: Bouteille de ricard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1578084354268501257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6360800664843396761}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 46
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2463923748429931442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2463923748429931445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00762156a7d43b144a10cd7d50d46237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2463923748429931443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2463923748429931445}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 78.37461, y: 229.00124, z: -39.04867}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6828372235023178064}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2463923748429931445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2463923748429931443}
+  - component: {fileID: 2463923748429931442}
+  m_Layer: 0
+  m_Name: TroueurGlobal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!1 &2497405633019662859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3171990543999965212}
+  - component: {fileID: 354847066109671786}
+  m_Layer: 5
+  m_Name: Rainpos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2578442002373872557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231839818709845386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdf8445e12b823438de245002024c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 8
+  quantite: 0
+  trouParTick: 12345678
+  tickDelay: 360
+  prix: 750000000
+  coefficient: 1.6
+  incrementTrousParClick: 10000
+  nom: Foreuse industrielle
+  description: "Alors elle on aurait ador\xE9 l'avoir."
+  image: {fileID: 21300000, guid: fb2271ee5e4fc3345a28aa52f6100287, type: 3}
+  unlockPalier: 1
+--- !u!1 &2954810988007486862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4978053876959156876}
+  - component: {fileID: 4001539312032601643}
+  m_Layer: 0
+  m_Name: Piou Piou niveau 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2966902411671873936
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565393947958825125}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &3171990543999965212
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2497405633019662859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6803943955935631658}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 109.69}
+  m_SizeDelta: {x: 480, y: 0}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!4 &3523709972504722968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523709972504722974}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 534.2384, y: 1514.8525, z: -910.265}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6828372235023178064}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3523709972504722969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523709972504722974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c18130d184e1d43af3a1fd061a23c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musique: {fileID: 8300000, guid: b6a39bf490eecb44b9d735cb37620b95, type: 3}
+  volume: 1
+  sonsIntro:
+  - {fileID: 8300000, guid: 65d9d72321a89c94db2baa472276acdf, type: 3}
+  - {fileID: 8300000, guid: 8128f8e6c38ea374caba0f6dd63d0b3b, type: 3}
+  - {fileID: 8300000, guid: fbe4dcf959cf8ca418904e34722326f6, type: 3}
+  - {fileID: 8300000, guid: a948bcd7b6a5bdd459b7dd9521acd8bf, type: 3}
+  - {fileID: 8300000, guid: 1833c13fbe269f041be773c65edd88ca, type: 3}
+  - {fileID: 8300000, guid: c5e609e2e8fca4547bdd82dbbb1a9f3d, type: 3}
+  - {fileID: 8300000, guid: aea156446897433459e65fd85ccc9ab6, type: 3}
+  - {fileID: 8300000, guid: 006c8929e8fee3d45b3cdf37bcbc18fc, type: 3}
+  - {fileID: 8300000, guid: a4a395636d9b59e4da3c4209e162170f, type: 3}
+  - {fileID: 8300000, guid: 84f670ec01112604fb6d1d784843d4a3, type: 3}
+  - {fileID: 8300000, guid: 98b2a2aa1d5049f4191bf0eebd8e013f, type: 3}
+  - {fileID: 8300000, guid: 13874b8a03160fd4cbe214708b38b6df, type: 3}
+  - {fileID: 8300000, guid: 7891b62ec4b81c54ab4c65a45498ef73, type: 3}
+  - {fileID: 8300000, guid: 941a82cc9de6147479ae79d89491f718, type: 3}
+  - {fileID: 8300000, guid: ef46a0387f3a88245bbcad92412ea61f, type: 3}
+  - {fileID: 8300000, guid: 5d0027fdc12ba994e93e72c973f11999, type: 3}
+  - {fileID: 8300000, guid: fcbff8f1a4d3a76418960dd5cd0c7d8f, type: 3}
+  poorPiouPiou: {fileID: 8300000, guid: 0771ce2a352e6314286c6333d472a8e6, type: 3}
+  hit:
+  - {fileID: 8300000, guid: e65b6b3ae2448484fb8fc46c72838cf8, type: 3}
+  - {fileID: 8300000, guid: 2773e5891bacfd84a9729fff037e2d09, type: 3}
+  - {fileID: 8300000, guid: 09ae85af5ee40444ab256432d039a4fb, type: 3}
+  - {fileID: 8300000, guid: dcb97016763651749b738dac5119a878, type: 3}
+  - {fileID: 8300000, guid: 80ebcadb87e7cc04eaf9b55af4ff4a50, type: 3}
+  buySound: {fileID: 8300000, guid: d14d053ec555fcf4eb538396443478bc, type: 3}
+  select: {fileID: 8300000, guid: 56b532fa72930ed4484478cd6bb8ea0d, type: 3}
+  sonPiouPiou: {fileID: 8300000, guid: 030f55e3bcf4c524fb14b6de6c33d165, type: 3}
+--- !u!114 &3523709972504722971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523709972504722974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330b0f655a7b1424b93f36924d46c01e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3523709972504722974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3523709972504722968}
+  - component: {fileID: 3523709972504722969}
+  - component: {fileID: 3523709972504722971}
+  m_Layer: 0
+  m_Name: soundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3843875611182583432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4243341023627783836}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4001539312032601643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2954810988007486862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 12
+  nom: Piou Piou niveau 5
+  textEffets: Fait 256 trous de plus par clic !
+  description: Tu as fait un trou dans le coeur de piou piou :'(
+  prix: 4194304
+  incrementUpgradeBrut: 256
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 186554acd6402d64386608eec154141d, type: 3}
+  effets: []
+  _achete: 0
+  cache: 0
+--- !u!114 &4035444928586849307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4551099231928889312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 42
+  nom: Papillon
+  textEffets: +1 trou par click
+  description: "Il n'y a pas que les animaux de la d\xE9sench'int\xE9 pour t'aider
+    \xE0 faire des trous : ce papillon t'aidera \xE0 faire pleins de trous !"
+  prix: 1000000
+  incrementUpgradeBrut: 1
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 52c35d8015c88744fa1a7b1b74d85026, type: 3}
+  effets: []
+  _achete: 0
+  cache: 1
+--- !u!1 &4243341023627783836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3843875611182583432}
+  - component: {fileID: 5625890606803915711}
+  m_Layer: 0
+  m_Name: Sticker sur la perceuse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4319893560848020014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6919326174444285722}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 44
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4551099231928889312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6345179551233453677}
+  - component: {fileID: 4035444928586849307}
+  m_Layer: 0
+  m_Name: Papillon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4978053876959156876
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2954810988007486862}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5179480476534493744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565393947958825125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 2
+  nom: Sticker sur la perforatrice
+  textEffets: Temps de production de la perforatrice -25%
+  description: "Mettre un sticker sur la perforatrice encourage les membres de l'introu
+    \xE0 travailler plus vite."
+  prix: 5000
+  incrementUpgradeBrut: 1
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 204a5c803fd14ec4091994075257c220, type: 3}
+  effets:
+  - item: {fileID: 246639323692344433}
+    baseProdUpgrade: 1
+    modificateurTrousParClick: 0
+    speedModifier: 0.75
+  _achete: 0
+  cache: 0
+--- !u!114 &5523594565449315380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8090914012246524288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 45
+  nom: "Trou dans la s\xE9curit\xE9"
+  textEffets: +1 trou par click
+  description: "Aie, la s\xE9curit\xE9 ne fonctionne pas \xE0 cause d'un mot de passe
+    faible (kom Mathis lol). Tu peux cependant utiliser ce trou dans la s\xE9curit\xE9
+    !"
+  prix: 1000000
+  incrementUpgradeBrut: 1
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 2b2a9b0298ce77d46bc287f0736f1270, type: 3}
+  effets: []
+  _achete: 0
+  cache: 1
+--- !u!114 &5535144064986082321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9160431550214597310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 47
+  nom: Passe tekTN
+  textEffets: +1 trou par click
+  description: "C'est gr\xE2ce \xE0 TekTN qu'on a pas de trous dans nos mains suite
+    aux campagnes."
+  prix: 1000000
+  incrementUpgradeBrut: 1
+  unlockPalier: 1
+  image: {fileID: 0}
+  effets: []
+  _achete: 0
+  cache: 1
+--- !u!1 &5565393947958825125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2966902411671873936}
+  - component: {fileID: 5179480476534493744}
+  m_Layer: 0
+  m_Name: Sticker sur la perforatrice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &5625890606803915711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4243341023627783836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 10
+  nom: Sticker sur la perceuse
+  textEffets: Temps de production de la perceuse -41%.
+  description: Qui l'eut cru ? Mettre un sticker sur la perceuse la rend plus rapide
+    .
+  prix: 1337000
+  incrementUpgradeBrut: 0
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: b6cc9ccde4d5d004e84a4d94ea1ea148, type: 3}
+  effets:
+  - item: {fileID: 246639322679870362}
+    baseProdUpgrade: 0
+    modificateurTrousParClick: 0
+    speedModifier: 0.69
+  _achete: 0
+  cache: 0
+--- !u!114 &5824556329389736849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577362679974167788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdf8445e12b823438de245002024c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 3
+  quantite: 0
+  trouParTick: 20
+  tickDelay: 20
+  prix: 20000
+  coefficient: 1.01
+  incrementTrousParClick: 0
+  nom: Bouteille de Ricard
+  description: "Tu sais ce qui fait des trous de m\xE9moire ? L'alcool, et oui."
+  image: {fileID: 21300000, guid: b595086ec17712641baa5093f5c4850e, type: 3}
+  unlockPalier: 2
+--- !u!114 &5970845364199620005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6678334674381838802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdf8445e12b823438de245002024c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 7
+  quantite: 0
+  trouParTick: 666666
+  tickDelay: 200.666
+  prix: 66666666
+  coefficient: 1.666
+  incrementTrousParClick: 666
+  nom: Le C
+  description: Le C est terrifiant, il fait des trous dans la moyenne
+  image: {fileID: 21300000, guid: dd14ccddbb8ebe24f9414571d92f3c9d, type: 3}
+  unlockPalier: 3
+--- !u!4 &5973555485526598748
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577362679974167788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322577402845}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &6345179551233453677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4551099231928889312}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 42
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6360800664843396761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1578084354268501257}
+  - component: {fileID: 6575148939357122963}
+  m_Layer: 0
+  m_Name: Danse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &6382410243141622887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6919326174444285722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 44
+  nom: Optimisation trouale
+  textEffets: +1 trou par click
+  description: "Le club algo a trouv\xE9 une fa\xE7on de produire des trous 0.00001%
+    plus rapidement avec un algorithme en log(n)"
+  prix: 1000000
+  incrementUpgradeBrut: 1
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 37bfca07908f53e4cbb9fdc0565066c8, type: 3}
+  effets: []
+  _achete: 0
+  cache: 1
+--- !u!114 &6488060165991418491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639323731980905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b575db889d62f4479cd492a4ea70a9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoSaveFreq: 120
+--- !u!114 &6575148939357122963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6360800664843396761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec4bf5e3c3b2cc489b98105462dbcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 46
+  nom: No one te regarde
+  textEffets: +20 trous par click
+  description: "No one te regarde danser : tu te rends compte que tu peux utiliser
+    ce regard per\xE7ant pour faire plus de trous."
+  prix: 1000000
+  incrementUpgradeBrut: 20
+  unlockPalier: 1
+  image: {fileID: 21300000, guid: 36240ea6e0a0a2747b3353ed993d89ab, type: 3}
+  effets: []
+  _achete: 0
+  cache: 1
+--- !u!1 &6678334674381838802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 355227608548120326}
+  - component: {fileID: 5970845364199620005}
+  m_Layer: 0
+  m_Name: Le C
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &6758949935165740405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8758638155043962119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d2439b4e9b94044b8a0b5109cc13dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools: []
+  debugMessages: 1
+  spawnDespawnMessages: 1
+--- !u!222 &6803943955935631656
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6803943955935631659}
+  m_CullTransparentMesh: 0
+--- !u!114 &6803943955935631657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6803943955935631659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0.77632, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a4660710fbd70404fb65615e9ac036b4, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!224 &6803943955935631658
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6803943955935631659}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.4, y: 2.4, z: 2.4}
+  m_Children:
+  - {fileID: 3171990543999965212}
+  - {fileID: 6999758181118165797}
+  m_Father: {fileID: 6828372235325089450}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 480, y: 853.33}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!1 &6803943955935631659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6803943955935631658}
+  - component: {fileID: 6803943955935631656}
+  - component: {fileID: 6803943955935631657}
+  - component: {fileID: 1105632587}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6828372235023178064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6828372235023178070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2463923748429931443}
+  - {fileID: 246639323731980907}
+  - {fileID: 3523709972504722968}
+  - {fileID: 6828372235325089450}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6828372235023178065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6828372235023178070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330b0f655a7b1424b93f36924d46c01e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6828372235023178070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6828372235023178064}
+  - component: {fileID: 6828372235023178065}
+  - component: {fileID: 919649093}
+  m_Layer: 0
+  m_Name: DontDestroyOnLoadObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &6828372235325089448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6828372235325089454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0.446
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!114 &6828372235325089449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6828372235325089454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!224 &6828372235325089450
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6828372235325089454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 6803943955935631658}
+  m_Father: {fileID: 6828372235023178064}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &6828372235325089451
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6828372235325089454}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: -1
+  m_TargetDisplay: 0
+--- !u!1 &6828372235325089454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6828372235325089450}
+  - component: {fileID: 6828372235325089451}
+  - component: {fileID: 6828372235325089448}
+  - component: {fileID: 6828372235325089449}
+  m_Layer: 5
+  m_Name: CanvasDontDestroy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &6919326174444285722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4319893560848020014}
+  - component: {fileID: 6382410243141622887}
+  m_Layer: 0
+  m_Name: Algo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6999758181118165797
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8758638155043962119}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6803943955935631658}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!4 &7503976350856920199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8090914012246524288}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 45
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7531467212767633421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639323731980905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 278c2d232ad1aee4a93f7f1215ef7d66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paliers:
+  - nom: aaa
+    desc: bbb
+    prix: 0
+  - nom: 
+    desc: bbb
+    prix: 30000000
+  - nom: ccc
+    desc: ddd
+    prix: 5000000000
+  - nom: ccc
+    desc: ddd
+    prix: 300000000000000
+--- !u!1 &7556681516858189414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9165502049912059470}
+  - component: {fileID: 7967217133662315131}
+  m_Layer: 0
+  m_Name: Arc de gueule de bois
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7813677033217638123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9160431550214597310}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 47
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7967217133662315131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7556681516858189414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdf8445e12b823438de245002024c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 1
+  quantite: 0
+  trouParTick: 2
+  tickDelay: 3
+  prix: 250
+  coefficient: 1.05
+  incrementTrousParClick: 1
+  nom: Arc gueule de bois
+  description: "Suite \xE0 une tentative de meurtre de Robin gueule de bois, tu as
+    d\xE9couvert une nouvelle fa\xE7on de faire des trous.\n"
+  image: {fileID: 21300000, guid: 26c72db89d7672b4fb0c079addbd6e40, type: 3}
+  unlockPalier: 2
+--- !u!1 &8090914012246524288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7503976350856920199}
+  - component: {fileID: 5523594565449315380}
+  m_Layer: 0
+  m_Name: "S\xE9curit\xE9"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &8758638155043962119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6999758181118165797}
+  - component: {fileID: 6758949935165740405}
+  m_Layer: 5
+  m_Name: pool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9050314821578089828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373525018510337343}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322961945319}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &9069655922682240114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231839818709845386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322577402845}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9160431550214597310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7813677033217638123}
+  - component: {fileID: 5535144064986082321}
+  m_Layer: 0
+  m_Name: TekTN
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9165502049912059470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7556681516858189414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 246639322577402845}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

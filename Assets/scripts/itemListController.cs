@@ -12,8 +12,11 @@ public class itemListController : MonoBehaviour
     {
         GameObject items = GameObject.Find("Items");
         foreach (Transform child in items.transform) {
-            GameObject si = Instantiate(shopItem, new Vector3(0, 0, 0), Quaternion.identity, transform);
-            si.GetComponent<ShopItemController>().item = child.gameObject;
+            ItemController ic = child.GetComponent<ItemController>();
+            if (ic.unlockPalier <= PalierManager.palier) { 
+                GameObject si = Instantiate(shopItem, new Vector3(0, 0, 0), Quaternion.identity, transform);
+                si.GetComponent<ShopItemController>().item = child.gameObject;
+            }
         }
     }
 

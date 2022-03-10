@@ -44,15 +44,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19c18130d184e1d43af3a1fd061a23c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musique: {fileID: 8300000, guid: b6a39bf490eecb44b9d735cb37620b95, type: 3}
   volume: 1
+  sonsIntro:
+  - {fileID: 8300000, guid: 65d9d72321a89c94db2baa472276acdf, type: 3}
+  - {fileID: 8300000, guid: 8128f8e6c38ea374caba0f6dd63d0b3b, type: 3}
+  - {fileID: 8300000, guid: fbe4dcf959cf8ca418904e34722326f6, type: 3}
+  - {fileID: 8300000, guid: a948bcd7b6a5bdd459b7dd9521acd8bf, type: 3}
+  - {fileID: 8300000, guid: 1833c13fbe269f041be773c65edd88ca, type: 3}
+  - {fileID: 8300000, guid: c5e609e2e8fca4547bdd82dbbb1a9f3d, type: 3}
+  - {fileID: 8300000, guid: aea156446897433459e65fd85ccc9ab6, type: 3}
+  - {fileID: 8300000, guid: 006c8929e8fee3d45b3cdf37bcbc18fc, type: 3}
+  - {fileID: 8300000, guid: a4a395636d9b59e4da3c4209e162170f, type: 3}
+  - {fileID: 8300000, guid: 84f670ec01112604fb6d1d784843d4a3, type: 3}
+  - {fileID: 8300000, guid: 98b2a2aa1d5049f4191bf0eebd8e013f, type: 3}
+  - {fileID: 8300000, guid: 13874b8a03160fd4cbe214708b38b6df, type: 3}
+  - {fileID: 8300000, guid: 7891b62ec4b81c54ab4c65a45498ef73, type: 3}
+  - {fileID: 8300000, guid: 941a82cc9de6147479ae79d89491f718, type: 3}
+  - {fileID: 8300000, guid: ef46a0387f3a88245bbcad92412ea61f, type: 3}
+  - {fileID: 8300000, guid: 5d0027fdc12ba994e93e72c973f11999, type: 3}
+  - {fileID: 8300000, guid: fcbff8f1a4d3a76418960dd5cd0c7d8f, type: 3}
+  - {fileID: 8300000, guid: ece9726118fa7d84598ca2abbbab63c7, type: 3}
+  - {fileID: 8300000, guid: 9175663ad1bf729429371ac6dd9b7bf8, type: 3}
+  poorPiouPiou: {fileID: 8300000, guid: 0771ce2a352e6314286c6333d472a8e6, type: 3}
   hit:
-  - {fileID: 8300000, guid: 33ebb27aa3f2e82409a5ebf06c18c8aa, type: 3}
+  - {fileID: 8300000, guid: e65b6b3ae2448484fb8fc46c72838cf8, type: 3}
   - {fileID: 8300000, guid: 2773e5891bacfd84a9729fff037e2d09, type: 3}
   - {fileID: 8300000, guid: 09ae85af5ee40444ab256432d039a4fb, type: 3}
   - {fileID: 8300000, guid: dcb97016763651749b738dac5119a878, type: 3}
   - {fileID: 8300000, guid: 80ebcadb87e7cc04eaf9b55af4ff4a50, type: 3}
   buySound: {fileID: 8300000, guid: d14d053ec555fcf4eb538396443478bc, type: 3}
   select: {fileID: 8300000, guid: 56b532fa72930ed4484478cd6bb8ea0d, type: 3}
+  sonPiouPiou: {fileID: 8300000, guid: 030f55e3bcf4c524fb14b6de6c33d165, type: 3}
 --- !u!114 &8969255839693309400
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,7 +13,7 @@ public class UpgradeListController : MonoBehaviour
         GameObject items = GameObject.Find("Upgrades");
         foreach (Transform child in items.transform)
         {
-            if (!child.gameObject.GetComponent<upgradeController>().cache || child.gameObject.GetComponent<upgradeController>().achete) { 
+            if ( (!child.gameObject.GetComponent<upgradeController>().cache || child.gameObject.GetComponent<upgradeController>().achete) && child.gameObject.GetComponent<upgradeController>().unlockPalier <= PalierManager.palier ) { 
             GameObject si = Instantiate(shopUpgrade, new Vector3(0, 0, 0), Quaternion.identity, transform);
             si.GetComponent<shopUpgradeController>().upgrade = child.gameObject;
             }

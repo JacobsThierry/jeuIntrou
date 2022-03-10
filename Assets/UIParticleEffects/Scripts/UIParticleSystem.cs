@@ -105,7 +105,7 @@ public class UIParticleSystem : MonoBehaviour {
     private void Init()
     {
         ParticlePoolPointer = 0;
-        ParticlePool = new Image[(int)(Lifetime * EmissionsPerSecond * 1.1f + 1)];
+        ParticlePool = new Image[(int)(Lifetime * EmissionsPerSecond + 1)];
         for (int i = 0; i < ParticlePool.Length; i++)
         {
 

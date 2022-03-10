@@ -126,7 +126,9 @@ namespace QuickPool
 
             Pool targetPool = PoolsManager.Instance.pools.Where(pool => pool.spawned.Contains(target)).FirstOrDefault();
 
-            targetPool.Despawn(target);
+            if(target != null)
+                targetPool.Despawn(target);
+            
         }
 
         public static void DespawnAll()

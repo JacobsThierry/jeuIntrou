@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4727929719403843107}
   - component: {fileID: 4727929719403843134}
   - component: {fileID: 4727929719403843111}
-  - component: {fileID: 4727929719403843104}
   m_Layer: 5
   m_Name: Effet rain
   m_TagString: Untagged
@@ -58,16 +57,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e001449fdb41c940aae8960579eb438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Particle: {fileID: 21300000, guid: 22cdafcdaa0ca2f4fa29dacbe58753e7, type: 3}
-  Duration: 6
+  Particle: {fileID: 0}
+  Duration: 5
   Looping: 0
-  Lifetime: 25
+  Lifetime: 22
   Speed: 0.3
   Size: 0.5
   Rotation: 30
   PlayOnAwake: 0
-  Gravity: -0.1
-  EmissionsPerSecond: 75
+  Gravity: -0.17
+  EmissionsPerSecond: 7
   EmissionDirection: {x: 0, y: -1}
   EmissionAngle: 80
   ColorOverLifetime:
@@ -147,15 +146,3 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &4727929719403843104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4727929719403843129}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 684fc98152d5c944ebdc25a3a1bce6c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

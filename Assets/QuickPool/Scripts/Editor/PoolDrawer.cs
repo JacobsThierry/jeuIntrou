@@ -67,6 +67,11 @@ namespace QuickPool
             SerializedProperty despawnPosProperty = property.FindPropertyRelative("despawnPos");
             SerializedProperty audioSourceHandlingProperty = property.FindPropertyRelative("audioSourceHandling");
             SerializedProperty particleSystemHandlingProperty = property.FindPropertyRelative("particleSystemHandling");
+            /*if (GUILayout.Button("Preinstantiate"))
+            {
+                GetPoolObject(property).Initialize();
+            }*/
+
 
             GameObject prefab = (GameObject)prefabProperty.objectReferenceValue;
             string prefabName = prefab != null ? prefab.name : "None";

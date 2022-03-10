@@ -76,6 +76,9 @@ namespace QuickPool
         public bool Particles;
         public bool GO { get { return !Audio && !Particles; } }
 
+
+        
+
         public PoolType Type
         {
             get
@@ -120,7 +123,7 @@ namespace QuickPool
 
             if (m_Root == null)
                 m_Root = Utils.CreateRoot(prefab.name).transform;
-                
+            Debug.Log("size = " +  size);
             for (int i = 0; i < size; i++)
             {
                 
@@ -259,7 +262,7 @@ namespace QuickPool
             spawned.Add(obj);
             if (mode == DespawnMode.Deactivate)
                 obj.SetActive(true);
-            obj.transform.parent = null;
+            obj.transform.SetParent(null, false);
 
             return obj;
         }

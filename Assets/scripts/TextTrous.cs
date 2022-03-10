@@ -6,8 +6,10 @@ public class TextTrous : MonoBehaviour
 {
 
     
-
+    
     private TMPro.TextMeshProUGUI text;
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -15,12 +17,15 @@ public class TextTrous : MonoBehaviour
         
     }
 
+
     
+
+
 
     // Update is called once per frame
     void Update()
     {
-        text.text = TroueurGlobal.nbTrous + " Trous";
+        text.text = TroueurGlobal.getNbTrous() + " Trous";
 
 
 

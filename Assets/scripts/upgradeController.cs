@@ -14,18 +14,19 @@ public class upgradeController : MonoBehaviour
     [TextArea(15, 20)]
     public string description;
 
-    public long prix;
+    public SerializableBigInteger prix;
 
     public long incrementUpgradeBrut;
+    public int unlockPalier = 1;
 
     
 
 
     [System.Serializable]
     public class effet {
-        public long itemId;
+        public GameObject item;
         public long baseProdUpgrade;
-        public long modificateurTrousParClick;
+        public SerializableBigInteger modificateurTrousParClick;
         public float speedModifier=1;
     }
 
@@ -33,36 +34,66 @@ public class upgradeController : MonoBehaviour
 
     public List<effet> effets;
 
-    public bool achete;
+    
+    public bool achete{
+        get {return _achete; }
+        set {
+            if (value && !_achete) {
+                appliquer();
+            }else if (!value && achete) {
+                reset();
+            }
+
+            _achete = value;
+        }
+    }
+
+    [SerializeField]
+    private bool _achete;
 
     public bool cache = false;
+    
 
-    private bool applique = false;
+    private bool applique{
+        get { return _applique; }
+        set {
+            
+            if(value){
+                appliquer();
+            }else {
+                reset();
+            }
+        }
+    }
+
+
+    private bool _applique = false;
 
 
 private void Start() {
-
+        
     }
 
     public void appliquer() {
 
         if (!this.applique) { 
 
-        this.applique = true;
-
-        GameObject items = GameObject.Find("Items");
-
-        foreach (Transform child in items.transform) {
-            ItemController controller = child.GetComponent<ItemController>();
+        this._applique = true;
+            Debug.Log("pppp = " + this.nom);
+            TroueurGlobal.baseTrouIncrement += incrementUpgradeBrut;
             foreach (effet e in effets) {
-                if (e.itemId == controller.id) {
-                    controller.trouParTick += e.baseProdUpgrade;
+
+                
+                    ItemController controller = e.item.GetComponent<ItemController>();
+                    controller.trouParTick.BigInteger += e.baseProdUpgrade;
                     controller.tickDelay *= e.speedModifier;
-                    controller.trouParTick += e.modificateurTrousParClick;
-                    TroueurGlobal.baseTrouIncrement += incrementUpgradeBrut;
-                }
+                //controller.trouParTick += e.modificateurTrousParClick;
+                controller.incrementTrousParClick.BigInteger += e.modificateurTrousParClick;
+                
+                
+                
             }
-        }}
+        }
 
     }
 
@@ -72,27 +103,30 @@ private void Start() {
         if (this.applique)
         {
 
-            this.applique = false;
+            this._applique = false;
 
             GameObject items = GameObject.Find("Items");
 
-            foreach (Transform child in items.transform)
-            {
-                ItemController controller = child.GetComponent<ItemController>();
-                foreach (effet e in effets)
+
+            TroueurGlobal.baseTrouIncrement -= incrementUpgradeBrut;
+
+            foreach (effet e in effets)
                 {
-                    if (e.itemId == controller.id)
-                    {
-                        controller.trouParTick -= e.baseProdUpgrade;
+                ItemController controller = e.item.GetComponent<ItemController>();
+                    
+                        controller.trouParTick.BigInteger -= e.baseProdUpgrade;
                         controller.tickDelay /= e.speedModifier;
-                        controller.trouParTick -= e.modificateurTrousParClick;
+                        //controller.trouParTick -= e.modificateurTrousParClick;
                         TroueurGlobal.baseTrouIncrement -= incrementUpgradeBrut;
-                    }
+                Debug.Log("increment avant : " + controller.incrementTrousParClick);
+                controller.incrementTrousParClick.BigInteger -= e.modificateurTrousParClick;
+                Debug.Log("increment après : " + controller.incrementTrousParClick);
+                    
                 }
             }
         }
 
-    }
+    
 
 
 }

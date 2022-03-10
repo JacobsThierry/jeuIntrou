@@ -13,7 +13,39 @@ public class rainController : MonoBehaviour
         allowGrowth = true
     };
 
+
+    public float rainChance = 0.2f;
+
+
+    public void resetMax() {
+        maxQuantity = 0;
+        minQuantity = -1;
+
+        foreach (Transform child in transform) {
+            child.gameObject.Despawn();
+        }
+
+    }
+
+
     private void Start() {
+
+        instance = this;
+        int i = 0;
+
+        
+
+        foreach (var gameObj in FindObjectsOfType(typeof(GameObject)) as GameObject[])
+        {
+            if (gameObj.name == this.gameObject.name)
+            {
+                i++;
+                if (i > 1)
+                {
+                    Destroy(this.gameObject);
+                }
+            }
+        }
 
         PoolsManager.RegisterPool(pool);
         pool.Initialize();
@@ -25,14 +57,29 @@ public class rainController : MonoBehaviour
 
     public float quantiteParticleTrous = 1;
 
-    public void makeRain(Sprite image, long quantite) {
-        Debug.Log(quantite);
-        float count = Mathf.Log10((float)(quantite) * quantiteParticleTrous);
+    private long maxQuantity=0;
+    private long minQuantity = -1;
 
-        float sec = 1 / pool.Prefab.GetComponent<UIParticleSystem>().Duration;
+    public static rainController instance;
+
+    public void makeRain(Sprite image, long quantite) {
+
+        if(quantite > maxQuantity) maxQuantity = quantite;
+
+        if(minQuantity < 0 || quantite < minQuantity) minQuantity = quantite;
+
+        if ( (rainChance/( (pool.spawned.Count)/(pool.size*1.1f) + 1))* Mathf.Max((quantite*1.5f)/maxQuantity ,1) >= Random.Range(0f, 1f)) { 
+            
+            
+
+        float count = (Mathf.Log10((float)(quantite) * quantiteParticleTrous + 0.5f));
+
+            Debug.Log("count rain = " + count);
+
+            float sec = 1 / pool.Prefab.GetComponent<UIParticleSystem>().Duration;
 
         if (count > 0) {
-            Debug.Log("moo");
+            
             float em = 0f;
 
             if (count < sec)
@@ -43,20 +90,20 @@ public class rainController : MonoBehaviour
                     em = sec*1.05f;
                 }
             }else {
-                em = count;
+                em = count * Random.Range(0.4f, 1f);
             }
 
-            Debug.Log("doo");
+            
 
 
             if (em > sec) {
                 RectTransform rect = GetComponent<RectTransform>();
-                Debug.Log("soo");
+                
                 float pos = Random.Range(transform.position.x - rect.rect.width * spread, transform.position.x + rect.rect.width * spread);
                     //GameObject t = Instantiate(rain, new Vector2(pos, transform.position.y), Quaternion.identity, this.transform);
                     
                     GameObject t = pool.Spawn(new Vector3(pos, transform.position.y, 0), Quaternion.identity);
-                    t.transform.parent = transform;
+                    t.transform.SetParent(transform, false);
                 RectTransform rect2 = t.GetComponent<RectTransform>();
                     rect2.position = new Vector3(pos, transform.position.y, 0);
 
@@ -72,19 +119,22 @@ public class rainController : MonoBehaviour
             uips.Speed = Random.Range(0.05f, 0.5f);
             uips.Play();
 
-                StartCoroutine(despawn((uips.Lifetime + uips.Duration) * 1.1f, t));
+                StartCoroutine(despawn((uips.Lifetime + uips.Duration) * 1.05f, t));
 
             }
             
 
         }
+        }
 
     }
 
     IEnumerator despawn(float time, GameObject instance) {
+        Debug.Log(gameObject);
         yield return new WaitForSeconds(time);
-        instance.Despawn();
 
+        instance.Despawn();
+        yield return null;
     }
 
 }
